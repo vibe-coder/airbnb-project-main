@@ -1,38 +1,244 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App{
   display: flex;
-  flex-direction: column;
+  height: 900px;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: lightslategrey;
 }
 
-.App-link {
-  color: #61dafb;
+.container{
+  background-color: white;
+  height: 880px;
+  width: 600px;
+  border-radius: 20px;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-wrapper{
+  background-color: rgb(255, 222, 227);
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.navbar-wrapper > img{
+  height: 30px;
+}
+
+.main-wrapper{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.hero-wrapper{
+  justify-content: center;
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+}
+
+.div-1{
+  background-color: red;
+  height: 100px;
+  width: 80px;
+  border-radius: 10px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.div-2{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.div-2i{
+  background-color: red;
+  height: 70px;
+  width: 80px;
+  border-radius: 10px;
+}
+
+.div-2ii{
+  background-color: red;
+  height: 100px;
+  width: 80px;
+  border-radius: 10px;
+}
+
+.div-3{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  padding-top: 100px;
+}
+
+.div-3i{
+  background-color: red;
+  height: 110px;
+  width: 80px;
+  border-radius: 10px;
+}
+
+.div-3ii{
+  background-color: red;
+  height: 110px;
+  width: 80px;
+  border-radius: 10px;
+}
+
+.div-4{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.div-4i{
+  background-color: red;
+  height: 110px;
+  width: 80px;
+  border-radius: 10px;
+}
+
+.div-4ii{
+  background-color: red;
+  height: 110px;
+  width: 80px;
+  border-radius: 10px;
+}
+
+.div-5{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  padding-top: 70px;
+}
+
+.div-5i{
+  background-color: red;
+  height: 110px;
+  width: 80px;
+  border-radius: 10px;
+}
+
+.div-5ii{
+  background-color: red;
+  height: 110px;
+  width: 80px;
+  border-radius: 10px;
+}
+
+.pic-1{
+  height: 100px;
+  width: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+  
+}
+
+.pic-2{
+  height: 70px;
+  width: 80px;
+  object-fit: cover;
+  object-position: bottom;
+  border-radius: 10px;
+}
+
+.pic-3{
+  height: 100px;
+  width: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.pic-4{
+  height: 110px;
+  width: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.pic-5{
+  height: 110px;
+  width: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.pic-6{
+  height: 110px;
+  width: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.pic-7{
+  height: 110px;
+  width: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.pic-8{
+  height: 110px;
+  width: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.pic-9{
+  height: 110px;
+  width: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.h1{
+  font-size: 40px;
+  margin-bottom: 0;
+  margin-bottom: 0;
+}
+
+.gray{
+  color: gray;
+}
+
+.gray1{
+  color: gray;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.bold{
+  font-weight: bold;
+}
+.card-picture{
+  width: 170px;
+  height: 180px;
+  object-position: center;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card-stats {
+  margin: 0px;
+}
+.card-star{
+  color: red;
+  font-size: 20px;
+  border: none;
+}
+
+.card-stats > p{
+  margin: 0px;
+  font-size: 13px;
+}
+
+.wrapper{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
 }
