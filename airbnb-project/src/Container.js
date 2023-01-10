@@ -8,14 +8,8 @@ export default function Container(){
   const dataComp = Data.map((data) => {
     return (
       <Card
-      id = {data.id}
-      title = {data.title}
-      price = {data.price}
-      coverImg = {data.coverImg}
-      rating = {data.stats.rating}
-      reviewCount = {data.stats.reviewCount}
-      location = {data.location}
-
+      key = {data.id}
+      {...data}
       />
     )
   })
